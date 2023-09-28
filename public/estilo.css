@@ -1,0 +1,110 @@
+
+*{
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    background: black;
+}
+
+/* Começo do cabeçalho */
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+}
+
+ul {
+    color: rgb(245, 161, 5);
+}
+
+a {
+    color: rgb(245, 161, 5);
+    text-decoration: none;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("assets/img/bg-jelly-fish-para_outras_pags.png");
+    height: 885px;
+    color: #fff;
+    display: flex;
+    
+}
+
+.banner .container {
+    font-size: 36px;
+    justify-content: center;
+}
+
+.caixa_formulario {
+    background: rgb(229, 229, 229);
+    width: 420px;
+    height: 400px;
+    color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.caixa_formulario h1 {
+    font-size: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.formulario button {
+    margin-top: 10px;
+    background: rgb(230, 0, 90);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 150px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.formulario input {
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid rgb(50, 185, 205);
+    border-radius: 10px;
+}
+
+.formulario span {
+    font-size: 20px;
+    font-weight: 600;
+}
